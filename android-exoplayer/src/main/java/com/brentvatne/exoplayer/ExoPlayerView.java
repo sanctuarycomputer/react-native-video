@@ -71,6 +71,7 @@ public final class ExoPlayerView extends FrameLayout {
 
         shutterView = new View(getContext());
         shutterView.setLayoutParams(layoutParams);
+        shutterView.setVisibility(INVISIBLE);
 
         subtitleLayout = new SubtitleView(context);
         subtitleLayout.setLayoutParams(layoutParams);
